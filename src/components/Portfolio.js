@@ -12,7 +12,8 @@ const projects = [
             " in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur \n",
         technologies: ["React", "Node", "MongoDB", "Express"],
         src: "",
-        alt: "Project hero image"
+        alt: "Project hero image",
+        deployed: true
     },
     {
         title: "Title",
@@ -34,7 +35,8 @@ const projects = [
             " in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur \n",
         technologies: ["React", "Node", "MongoDB", "Express"],
         src: "",
-        alt: "Project hero image"
+        alt: "Project hero image",
+        deployed: true
     }
 ];
 

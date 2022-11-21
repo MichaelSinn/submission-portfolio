@@ -8,7 +8,8 @@ function ProjectCard({project}) {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <section className="card-footer">
-                    <button className="card-button">Learn More</button>
+                    {project.deployed ? <button className="card-button">View Deployment</button> : null}
+                    <button className="card-button">View GitHub</button>
                     <section className="technologies">
                         {project.technologies.map(tech => {
                             return (
