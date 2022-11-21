@@ -8,6 +8,10 @@ footer{
     align-items: center;
 }
 
+textarea{
+    resize: none;
+}
+
 .project-card {
     /*border: 1px grey solid;*/
     padding: 10px;
@@ -35,7 +39,7 @@ footer{
 .card-button {
     background-color: #E44B5A;
     color: white;
-    padding: 8px;
+    padding: 6px 9px;
     border: none;
     font-size: 1.2rem;
     cursor: pointer;
