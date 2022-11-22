@@ -1,11 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-/*TODO:
-    WHEN I am presented with the Resume section
-    THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-*/
-
 const skills = [
     "JavaScript",
     "Python",
