@@ -30,7 +30,7 @@ function Contact() {
                                 return (error !== 'Email is invalid');
                             })
                             updateErrors(updatedErrors);
-                        };
+                        }
                     }}/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone
                         else.</small>
