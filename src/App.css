@@ -88,3 +88,7 @@ textarea{
 .active{
     background-color: #E44B5A;
 }
+
+.profile{
+    border-radius: 100px;
+}
