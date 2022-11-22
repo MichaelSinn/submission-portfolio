@@ -2,14 +2,12 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {NavLink} from "react-router-dom";
 
-function Header(){
+function Header() {
     return (
         <header className="mb-4">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">
-                        <h1 className="text-light">Michael Sinn</h1>
-                    </a>
+                    <h1 className="text-light">Michael Sinn</h1>
 
                     <ul className="navbar-nav">
                         <li className="nav-item">
