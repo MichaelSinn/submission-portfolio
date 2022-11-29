@@ -72,6 +72,18 @@ const projects = [
         deployUrl: "",
         deployed: false
     },
+    {
+        title: "Vapour",
+        description: "Vapour is a game saving application that allows users to view " +
+            "all their favourite games and either add them to their collection or " +
+            "wishlist them to consider adding to their collection later.",
+        src: "logo512.png",
+        technologies: ["MERN", "Bulma", "GraphQL"],
+        alt: "Project hero image",
+        github: "https://github.com/MichaelSinn/vapour",
+        deployUrl: "https://vapour-games.herokuapp.com/",
+        deployed: true
+    }
 ];
 
 function Portfolio() {
